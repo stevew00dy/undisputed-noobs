@@ -38,8 +38,8 @@ function Navbar() {
         </a>
         <div className="hidden md:flex items-center gap-8">
           {[
-            ["Guides", "#guides"],
             ["Sherpa Steve", "#sherpa"],
+            ["Guides", "#guides"],
             ["Our Mission", "#why"],
             ["Values", "#values"],
             ["Our Promise", "#promise"],
@@ -516,7 +516,7 @@ function Guides() {
       title: "Getting Started",
       desc: "Step-by-step beginner guides for Star Citizen 4.0. Everything you need to know, in order.",
       tag: "Beginner",
-      url: "https://youtube.com/playlist?list=PLOe_qfzz-rXCqlt_4NeXWwtDXRNY0IWiT",
+      url: "https://youtu.be/BGgyFafah58",
     },
     {
       icon: <BookOpen className="w-8 h-8" />,
