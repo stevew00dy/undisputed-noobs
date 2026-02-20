@@ -12,8 +12,6 @@ import {
   Star,
   ExternalLink,
   User,
-  Volume2,
-  VolumeOff,
   Brain,
   Dumbbell,
   HeartHandshake,
