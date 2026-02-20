@@ -673,6 +673,14 @@ function Footer() {
             >
               <Youtube className="w-5 h-5" />
             </a>
+            <a
+              href="https://stevew00dy.github.io/star-citizen-rare-armor/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-un-muted hover:text-un-accent transition-colors text-xs font-medium"
+            >
+              Rare Armour Tracker
+            </a>
           </div>
 
           <p className="text-sm text-un-muted/50">
