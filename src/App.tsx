@@ -151,8 +151,8 @@ function Why() {
             <span className="text-un-text font-semibold">yours</span>.
           </p>
           <p className="text-un-muted text-lg leading-relaxed">
-            But somewhere along the way, competitive gaming turned toxic.
-            Lobbies full of rage. Communities that punish questions. Content
+            But somewhere along the way, gaming culture turned toxic.
+            Chat full of noise. Communities that punish questions. Content
             creators screaming over every clip. You escape real life — and land
             in an environment that's{" "}
             <span className="text-un-text font-semibold">
@@ -168,64 +168,42 @@ function Why() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-un-card border border-un-card-border rounded-xl p-8 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-500/50 via-red-500/20 to-transparent" />
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center">
-                <Volume2 className="w-5 h-5 text-red-400" />
-              </div>
-              <h3 className="font-display font-bold text-lg text-red-400">
-                The Noise
-              </h3>
-            </div>
+            <h3 className="font-display font-bold text-lg text-red-400 mb-5">
+              We are not
+            </h3>
             <ul className="space-y-3 text-un-muted">
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1 shrink-0">—</span>
-                <span>Toxic lobbies and aggressive communities</span>
+                <span>Loud, obnoxious, over-produced content</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1 shrink-0">—</span>
-                <span>Content that's all hype and no substance</span>
+                <span>Clickbait or attention farming</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1 shrink-0">—</span>
-                <span>Elitism and gatekeeping — "you should already know this"</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-red-400 mt-1 shrink-0">—</span>
-                <span>Escaping to a place that makes you feel worse</span>
+                <span>Long intros, constant ads or misdirection</span>
               </li>
             </ul>
           </div>
 
           <div className="bg-un-card border border-un-card-border rounded-xl p-8 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-un-accent/50 via-un-accent/20 to-transparent" />
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-un-accent/10 flex items-center justify-center">
-                <VolumeOff className="w-5 h-5 text-un-accent" />
-              </div>
-              <h3 className="font-display font-bold text-lg text-un-accent">
-                The uNoob Way
-              </h3>
-            </div>
+            <h3 className="font-display font-bold text-lg text-un-accent mb-5">
+              We are
+            </h3>
             <ul className="space-y-3 text-un-muted">
               <li className="flex items-start gap-2">
                 <span className="text-un-accent mt-1 shrink-0">+</span>
-                <span>Calm, patient guidance — no shouting, no drama</span>
+                <span>Calm guides that get straight to the point</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-un-accent mt-1 shrink-0">+</span>
-                <span>Clear, step-by-step breakdowns anyone can follow</span>
+                <span>A community where no question is a stupid one</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-un-accent mt-1 shrink-0">+</span>
-                <span>A community that welcomes every question</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-un-accent mt-1 shrink-0">+</span>
-                <span>No mid-roll ads — one at the start, then uninterrupted</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-un-accent mt-1 shrink-0">+</span>
-                <span>We value your time, not waste it</span>
+                <span>One ad, then uninterrupted — your time is yours</span>
               </li>
             </ul>
           </div>
@@ -261,6 +239,10 @@ function Sherpa() {
                   Lead Guide · Undisputed Noobs
                 </p>
                 <p className="text-un-muted leading-relaxed mb-4">
+                  Former head of Legion Esports (London) and associate
+                  lecturer in esports at university level.
+                </p>
+                <p className="text-un-muted leading-relaxed mb-4">
                   900+ videos. Thousands of players helped. Still a noob at
                   heart — and that's the point. I remember what it's like to
                   be completely lost, overwhelmed, and too afraid to ask a
@@ -268,8 +250,7 @@ function Sherpa() {
                 </p>
                 <p className="text-un-muted leading-relaxed">
                   I make guides for the person I used to be. No assumptions.
-                  No jargon. No hype. Just calm, clear, step-by-step help from
-                  someone who genuinely cares whether you got it.
+                  No jargon. No hype. Just calm, clear, step-by-step help.
                 </p>
               </div>
             </div>
@@ -301,10 +282,6 @@ function Sherpa() {
                 {
                   title: "Patient",
                   desc: "No question is too basic. You're not dumb for not knowing. You just haven't been shown yet.",
-                },
-                {
-                  title: "Honest",
-                  desc: "No hype. No sponsors influencing opinions. If something's bad, I'll say so.",
                 },
               ].map((trait) => (
                 <div key={trait.title} className="flex items-start gap-3">
