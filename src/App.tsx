@@ -22,7 +22,7 @@ import Logo from "./components/Logo";
 function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-un-darker/80 backdrop-blur-md border-b border-un-card-border">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-6 py-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 group">
           <Logo className="w-10 h-10" />
           <div className="flex flex-col">
@@ -69,7 +69,7 @@ function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center star-field hero-glow pt-20">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-un-dark" />
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-6 text-center">
         <div className="float-animation mb-8">
           <Logo className="w-32 h-32 mx-auto" />
         </div>
@@ -131,7 +131,7 @@ function Hero() {
 function Why() {
   return (
     <section id="why" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1600px] mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-un-accent font-display text-sm tracking-widest uppercase mb-4">
             Our Mission
@@ -216,7 +216,7 @@ function Sherpa() {
   return (
     <section id="sherpa" className="py-24 bg-un-darker relative overflow-hidden">
       <div className="absolute inset-0 star-field opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <div className="bg-un-card border border-un-card-border rounded-2xl p-8 relative overflow-hidden">
@@ -298,7 +298,7 @@ function Sherpa() {
 function Values() {
   return (
     <section id="values" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1600px] mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-un-gold font-display text-sm tracking-widest uppercase mb-4">
             The uNoob Code
@@ -422,7 +422,7 @@ function Promise() {
   return (
     <section id="promise" className="py-24 bg-un-darker relative overflow-hidden">
       <div className="absolute inset-0 star-field opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-un-gold font-display text-sm tracking-widest uppercase mb-4">
             Our Promise
@@ -528,7 +528,7 @@ function Guides() {
   return (
     <section id="guides" className="py-24 bg-un-darker relative overflow-hidden">
       <div className="absolute inset-0 star-field opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         <div className="text-center mb-4">
           <p className="text-un-accent font-display text-sm tracking-widest uppercase mb-4">
             Start Here
@@ -600,7 +600,7 @@ function Guides() {
 function Community() {
   return (
     <section id="community" className="py-24 relative">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-[1400px] mx-auto px-6 text-center">
         <Logo className="w-20 h-20 mx-auto mb-6 opacity-80" />
         <p className="text-un-accent font-display text-sm tracking-widest uppercase mb-4">
           Join the uNoob Crew
@@ -649,7 +649,7 @@ function Community() {
 function Footer() {
   return (
     <footer className="border-t border-un-card-border bg-un-darker py-12">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1600px] mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
@@ -688,7 +688,7 @@ function Footer() {
 function About() {
   return (
     <section id="about" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1600px] mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-un-accent font-display text-sm tracking-widest uppercase mb-4">
