@@ -207,11 +207,6 @@ function Why() {
           </div>
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-un-gold font-display text-base tracking-wider">
-            Making the world a better place. One player at a time.
-          </p>
-        </div>
       </div>
     </section>
   );
