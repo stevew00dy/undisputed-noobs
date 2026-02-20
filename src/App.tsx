@@ -346,7 +346,7 @@ function Values() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex items-center justify-center">
             <img
-              src="/values-triangles.png"
+              src={`${import.meta.env.BASE_URL}values-triangles.png`}
               alt="Be Respectful, Stay Positive, Have Fun"
               className="w-full max-w-md mx-auto"
               draggable={false}
