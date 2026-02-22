@@ -105,7 +105,7 @@ function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#guides"
+            href="#about"
             className="inline-flex items-center gap-2 bg-un-accent text-un-dark font-bold px-8 py-3.5 rounded-xl hover:bg-un-accent-light transition-all text-lg"
           >
             <Compass className="w-5 h-5" />
@@ -653,8 +653,7 @@ function Tools() {
             Tools that save you <span className="gradient-text">time</span>
           </h2>
           <p className="text-un-muted max-w-2xl mx-auto">
-            Our own trackers plus the best community tools out there. No
-            sign-ups, no ads — just useful stuff.
+            Our own trackers plus the best community tools out there.
           </p>
         </div>
 
@@ -689,7 +688,7 @@ function Tools() {
           ))}
         </div>
 
-        <div className="mt-6 grid sm:grid-cols-2 gap-6">
+        <div className="mt-6 grid sm:grid-cols-3 gap-6">
           <a
             href="https://www.ueepathfinders.com/"
             target="_blank"
@@ -729,7 +728,7 @@ function Tools() {
               </div>
               <div className="min-w-0 flex-1">
                 <h3 className="font-display font-bold text-lg group-hover:text-sky-400 transition-colors">
-                  Cosmic Coal
+                  Cosmic Coalition
                 </h3>
                 <p className="text-un-muted text-sm">
                   Casual org. Chill sessions, group play, no pressure.
@@ -737,6 +736,32 @@ function Tools() {
               </div>
               <span className="inline-flex items-center gap-1.5 bg-sky-400/10 text-sky-400 border border-sky-400/20 px-4 py-1.5 rounded-lg text-xs font-semibold shrink-0 group-hover:bg-sky-400/20 transition-all">
                 Follow
+                <ExternalLink className="w-3.5 h-3.5" />
+              </span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.facebook.com/groups/623473311006319"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-un-card border border-un-card-border rounded-xl p-6 card-glow transition-all hover:border-blue-400/30 group flex flex-col relative overflow-hidden"
+          >
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500/50 via-blue-400/20 to-transparent" />
+            <div className="flex items-center gap-4">
+              <div className="text-blue-400 shrink-0">
+                <Users className="w-8 h-8" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <h3 className="font-display font-bold text-lg group-hover:text-blue-400 transition-colors">
+                  Star Citizen Facebook Group
+                </h3>
+                <p className="text-un-muted text-sm">
+                  Community group. News, discussions, and meetups.
+                </p>
+              </div>
+              <span className="inline-flex items-center gap-1.5 bg-blue-400/10 text-blue-400 border border-blue-400/20 px-4 py-1.5 rounded-lg text-xs font-semibold shrink-0 group-hover:bg-blue-400/20 transition-all">
+                Join
                 <ExternalLink className="w-3.5 h-3.5" />
               </span>
             </div>
@@ -831,6 +856,14 @@ function Footer() {
             >
               Rare Armour Tracker
             </a>
+            <a
+              href="https://stevew00dy.github.io/cz-tracker/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-un-muted hover:text-un-accent transition-colors text-xs font-medium"
+            >
+              Exec Hangar Tracker
+            </a>
           </div>
 
           <p className="text-sm text-un-muted/50">
@@ -872,8 +905,7 @@ function About() {
             </p>
             <p className="text-un-muted leading-relaxed">
               Whether you're loading up a game for the first time or you've
-              been playing for years, this is your crew. No elitism. No
-              gatekeeping. Just good people helping each other out.
+              been playing for years, this is your space.
             </p>
           </div>
 
